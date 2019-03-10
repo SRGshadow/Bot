@@ -1,7 +1,8 @@
 const Discord = require ('discord.js');
 const bot = new Discord.Client();
-const prefix = config.prefix;
 const snek = require ('snekfetch');
+
+let PREFIX = '/'
 
 bot.on('ready', () => console.log("online!"));
 
