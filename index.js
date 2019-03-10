@@ -44,4 +44,4 @@ if (msg.content.startsWith(prefix + "userinfo")) {
 
     });
 
-bot.login(process.env.token);
+bot.login(process.env.BOT_TOKEN);
