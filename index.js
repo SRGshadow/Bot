@@ -1,6 +1,5 @@
 const Discord = require ('discord.js');
 const bot = new Discord.Client();
-const config = require ('./SecretStuff/config.json')
 const prefix = config.prefix;
 const snek = require ('snekfetch');
 
